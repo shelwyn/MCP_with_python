@@ -4,6 +4,8 @@
 
 This repository contains a **RandomUser MCP Server** built with FastAPI, a custom chatbot integrating MCP tools with Gemini-2.0-Flash, and a proxy to connect the server to **Claude Desktop**. The project leverages the **Model Context Protocol (MCP)** to extend AI capabilities with tools for generating random user profiles, demonstrating a practical application of MCP in both standalone and integrated environments.
 
+This project uses GOOGLE GEMINI LLM, click there to get your free API keys: https://aistudio.google.com/
+
 ## Overview
 
 The **RandomUser MCP Server** fetches user data (name, country, age, etc.) from `https://randomuser.me/api/` and exposes three tools:
